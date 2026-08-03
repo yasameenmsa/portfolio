@@ -26,7 +26,7 @@ const roleDetails = {
     projects: ["Shop (E-commerce)", "THE5Husson", "Cinematic Landing Kit"],
   },
   fullstack: {
-    img: "assets/fullstack.svg",
+    img: "assets/fullstack.png",
     title: "Full Stack Developer",
     tag: "Front to back, end to end",
     desc: "Building complete web applications — from the interface users see to the databases and APIs behind it.",
