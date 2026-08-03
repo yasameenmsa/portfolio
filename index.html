@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yasmeen | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#home" class="brand">Yasmeen</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#roles">Roles</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO: central photo + orbiting role circles -->
+  <section id="home" class="hero">
+    <h1 class="hero-title">Hi, I'm <span class="accent">Yasmeen</span></h1>
+    <p class="hero-sub">One person, many hats. Hover the circles around me.</p>
+
+    <div class="orbit-stage" aria-label="My roles">
+      <div class="orbit-ring"></div>
+
+      <div class="orbit-spin">
+        <!-- Role bubbles -->
+        <div class="orbit-item" data-angle="-90">
+          <div class="orbit-bubble-wrap">
+            <a href="#role-physio" class="orbit-bubble">
+              <img class="bubble-icon" src="assets/physio.png" alt="Physiotherapist" />
+            </a>
+            <span class="bubble-label">Physiotherapist</span>
+          </div>
+        </div>
+        <div class="orbit-item" data-angle="-30">
+          <div class="orbit-bubble-wrap">
+            <a href="#role-frontend" class="orbit-bubble">
+              <img class="bubble-icon" src="assets/frontend.png" alt="Front End Developer" />
+            </a>
+            <span class="bubble-label">Front End Developer</span>
+          </div>
+        </div>
+        <div class="orbit-item" data-angle="30">
+          <div class="orbit-bubble-wrap">
+            <a href="#role-fullstack" class="orbit-bubble">
+              <img class="bubble-icon" src="assets/fullstack.png" alt="Full Stack Developer" />
+            </a>
+            <span class="bubble-label">Full Stack Developer</span>
+          </div>
+        </div>
+        <div class="orbit-item" data-angle="90">
+          <div class="orbit-bubble-wrap">
+            <a href="#role-n8n" class="orbit-bubble">
+              <img class="bubble-icon" src="assets/n8n.png" alt="n8n Developer" />
+            </a>
+            <span class="bubble-label">n8n Developer</span>
+          </div>
+        </div>
+        <div class="orbit-item" data-angle="150">
+          <div class="orbit-bubble-wrap">
+            <a href="#role-ai" class="orbit-bubble">
+              <img class="bubble-icon" src="assets/ai.png" alt="AI Developer" />
+            </a>
+            <span class="bubble-label">AI Developer</span>
+          </div>
+        </div>
+        <div class="orbit-item" data-angle="210">
+          <div class="orbit-bubble-wrap">
+            <a href="#role-automation" class="orbit-bubble">
+              <img class="bubble-icon" src="assets/automation.png" alt="Automation Developer" />
+            </a>
+            <span class="bubble-label">Automation Developer</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Center photo -->
+      <div class="center-photo">
+        <div class="center-inner"><img src="assets/Yasmeen.png" alt="Yasmeen" /></div>
+        <div class="center-name">Yasmeen</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-card">
+      <p>
+        I'm Yasmeen — a physiotherapist by training and a developer by obsession.
+        I blend patient care with code, building automation, AI tools, and
+        modern web experiences. I don't believe in "just one thing" — I build
+        across the stack that helps people.
+      </p>
+    </div>
+  </section>
+
+  <!-- ROLES -->
+  <section id="roles" class="section">
+    <h2 class="section-title">My Roles</h2>
+    <div class="roles-grid">
+
+      <article id="role-physio" class="role-card">
+        <div class="role-icon">🩺</div>
+        <h3>Physiotherapist</h3>
+        <p>Helping people move, recover, and live pain-free with evidence-based rehab and care.</p>
+      </article>
+
+      <article id="role-frontend" class="role-card">
+        <div class="role-icon">💻</div>
+        <h3>Front End Developer</h3>
+        <p>Designing and building fast, beautiful, responsive websites and interfaces that people enjoy using.</p>
+      </article>
+
+      <article id="role-fullstack" class="role-card">
+        <div class="role-icon">🖥️</div>
+        <h3>Full Stack Developer</h3>
+        <p>Building complete applications — frontend, backend, databases, and everything that connects them.</p>
+      </article>
+
+      <article id="role-n8n" class="role-card">
+        <div class="role-icon">⚡</div>
+        <h3>n8n Developer</h3>
+        <p>Building AI agents, chatbots, and complex workflows with n8n — connecting tools so you don't have to.</p>
+      </article>
+
+      <article id="role-ai" class="role-card">
+        <div class="role-icon">🤖</div>
+        <h3>AI Developer</h3>
+        <p>Creating intelligent assistants, RAG pipelines, and AI-powered products that save real time.</p>
+      </article>
+
+      <article id="role-automation" class="role-card">
+        <div class="role-icon">⚙️</div>
+        <h3>Automation Developer</h3>
+        <p>Eliminating busywork — automating repetitive tasks, data flows, and business processes end to end.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">My Projects</h2>
+    <p class="section-sub">Real things I've built and automated</p>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-icon">🌱</div>
+        <h3>Yasmin Life OS</h3>
+        <p>My flagship personal life-management web app — tasks, habits, reminders, and daily orchestration.</p>
+        <span class="project-tag">Next.js</span>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">🎨</div>
+        <h3>AIScratchStudio</h3>
+        <p>Reusable UI component library + AI experimentation playground used across all my web projects.</p>
+        <span class="project-tag">Next.js</span>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">📖</div>
+        <h3>RemakeMyStory</h3>
+        <p>An AI story-remixing app — turn any story into a new genre, perspective, or tone.</p>
+        <span class="project-tag">Next.js</span>
+        <span class="project-tag">AI</span>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">🛍️</div>
+        <h3>Shop</h3>
+        <p>E-commerce storefront built for real customers.</p>
+        <span class="project-tag">Next.js</span>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">📿</div>
+        <h3>THE5Husson</h3>
+        <p>Quran memorization website — structured recitation practice and tracking.</p>
+        <span class="project-tag">Web</span>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">🤖</div>
+        <h3>Telegram Brain Bot</h3>
+        <p>n8n bot that searches my Obsidian vault on GitHub and answers with DeepSeek AI.</p>
+        <span class="project-tag">n8n</span>
+        <span class="project-tag">AI</span>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">💾</div>
+        <h3>Vault Backup</h3>
+        <p>Daily automated backup of my whole Obsidian second brain — git commit and push at 8 PM.</p>
+        <span class="project-tag">n8n</span>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">📧</div>
+        <h3>SendMassages</h3>
+        <p>Python desktop tool that automates clinic email outreach to patients.</p>
+        <span class="project-tag">Python</span>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">🦴</div>
+        <h3>Physiotherapy Kit</h3>
+        <p>PT exam guide, exercise library, and research collection for physio students and patients.</p>
+        <span class="project-tag">Physio</span>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-card">
+      <p>Have a project, a patient, or an idea that needs automation? Let's talk.</p>
+      <div class="contact-links">
+        <a href="mailto:yasmeen@example.com">📧 yasmeen@example.com</a>
+        <a href="https://github.com/yasmeen" target="_blank" rel="noopener">🐙 GitHub</a>
+        <a href="https://linkedin.com/in/yasmeen" target="_blank" rel="noopener">💼 LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Yasmeen · Built with care</p>
+  </footer>
+
+  <!-- Role details page (slides in) -->
+  <div class="detail-overlay" id="detail-overlay" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+    <div class="detail-panel">
+      <button class="detail-close" id="detail-close" aria-label="Close details">×</button>
+      <img class="detail-img" id="detail-img" alt="" />
+      <span class="detail-tag" id="detail-tag"></span>
+      <h2 id="detail-title"></h2>
+      <p id="detail-desc"></p>
+      <ul class="detail-points" id="detail-points"></ul>
+
+      <div class="detail-block">
+        <h3 class="detail-subtitle">Learning Courses</h3>
+        <ul class="detail-list" id="detail-courses"></ul>
+      </div>
+
+      <div class="detail-block">
+        <h3 class="detail-subtitle">Projects</h3>
+        <ul class="detail-list" id="detail-projects"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Flying role circle dock -->
+  <div class="fly-dock" id="fly-dock"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
