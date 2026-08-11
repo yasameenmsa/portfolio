@@ -461,6 +461,16 @@ body::before {
   font-size: 1.1rem;
 }
 
+.project-card h3 a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.project-card h3 a:hover {
+  color: var(--accent);
+}
+
 .project-card p {
   color: var(--text-dim);
   font-size: 0.93rem;
