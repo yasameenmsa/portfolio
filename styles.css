@@ -444,6 +444,13 @@ body::before {
   border-color: var(--accent);
 }
 
+.contact-loc {
+  margin-top: 20px;
+  margin-bottom: 0 !important;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
 /* FOOTER */
 .footer {
   text-align: center;
