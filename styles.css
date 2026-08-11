@@ -186,11 +186,12 @@ body::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, calc(-50% + 120px));
+  transform: translate(-50%, calc(-50% + 130px));
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 1.1rem;
   z-index: 2;
+  white-space: nowrap;
 }
 
 /* Role bubbles */
@@ -453,6 +454,8 @@ body::before {
   border-radius: var(--radius);
   padding: 26px;
   transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -498,6 +501,7 @@ body::before {
   color: var(--text-dim);
   font-size: 0.93rem;
   margin-bottom: 14px;
+  flex: 1;
 }
 
 .project-tag {
@@ -510,6 +514,7 @@ body::before {
   padding: 4px 12px;
   border-radius: 999px;
   margin: 4px 6px 0 0;
+  align-self: flex-start;
 }
 
 /* CONTACT */
@@ -844,6 +849,7 @@ body::before {
     gap: 14px;
     animation: none;
     width: 100%;
+    order: 2;
   }
 
   .orbit-item {
