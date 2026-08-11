@@ -825,6 +825,7 @@ body::before {
 
   .center-name {
     margin-top: 10px;
+    margin-bottom: 16px;
     font-size: 1.1rem;
   }
 
