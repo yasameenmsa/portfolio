@@ -808,7 +808,7 @@ body::before {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
   }
 
   .orbit-ring {
@@ -818,14 +818,14 @@ body::before {
   .center-photo {
     position: static;
     transform: none;
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     order: -1;
   }
 
   .center-name {
-    margin-top: 14px;
-    font-size: 1.25rem;
+    margin-top: 10px;
+    font-size: 1.1rem;
   }
 
   .orbit-spin {
@@ -833,7 +833,7 @@ body::before {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 14px;
     animation: none;
     width: 100%;
   }
@@ -845,23 +845,29 @@ body::before {
 
   .orbit-bubble-wrap {
     animation: none;
-    gap: 10px;
+    gap: 6px;
   }
 
   .orbit-bubble {
-    width: 118px;
-    height: 118px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .bubble-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .bubble-label {
-    max-width: 118px;
-    font-size: 0.72rem;
-    padding: 5px 8px;
+    max-width: 80px;
+    font-size: 0.65rem;
+    padding: 3px 6px;
     white-space: normal;
   }
 
   .hero {
-    padding-top: 140px;
+    padding-top: 120px;
   }
 
   .nav-inner {
@@ -876,6 +882,6 @@ body::before {
   }
 
   .section {
-    padding: 70px 24px;
+    padding: 60px 20px;
   }
 }
