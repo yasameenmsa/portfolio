@@ -824,15 +824,16 @@ body::before {
     transform: none;
     width: 160px;
     height: 160px;
-    order: -1;
+    order: 1;
   }
 
   .center-name {
     position: static;
     transform: none;
     margin-top: 10px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     font-size: 1.1rem;
+    order: 0;
   }
 
   .orbit-spin {
