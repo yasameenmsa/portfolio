@@ -186,7 +186,7 @@ body::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, calc(-50% - 80px));
+  transform: translate(-50%, calc(-50% + 120px));
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 1.1rem;
@@ -824,7 +824,7 @@ body::before {
     transform: none;
     width: 160px;
     height: 160px;
-    order: 1;
+    order: 0;
   }
 
   .center-name {
@@ -833,7 +833,7 @@ body::before {
     margin-top: 10px;
     margin-bottom: 8px;
     font-size: 1.1rem;
-    order: 0;
+    order: 1;
   }
 
   .orbit-spin {
