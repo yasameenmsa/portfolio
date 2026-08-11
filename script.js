@@ -13,7 +13,7 @@ const roleDetails = {
     tag: "Healing through movement",
     desc: "Evidence-based physiotherapy: assessing injuries, designing rehab programs, using manual therapy, and coaching patients back to pain-free movement.",
     points: ["Patient assessment", "Rehab programs", "Manual therapy", "Injury prevention"],
-    courses: ["BSc Physiotherapy", "Manual Therapy Diploma", "Sports Rehabilitation Certificate"],
+    courses: ["BSc Physiotherapy"],
     projects: ["Physiotherapy Kit", "PT Exam Guide", "Clinic Tools"],
   },
   frontend: {
@@ -31,7 +31,7 @@ const roleDetails = {
     tag: "Front to back, end to end",
     desc: "Building complete web applications — from the interface users see to the databases and APIs behind it.",
     points: ["Frontend & UI", "Backend & APIs", "Databases", "Deployment"],
-    courses: ["Full Stack Web Development", "Node.js & Express", "Databases & SQL"],
+    courses: ["Full Stack Web Development", "Node.js & Express"],
     projects: ["Yasmin Life OS", "AIScratchStudio", "RemakeMyStory"],
   },
   n8n: {
