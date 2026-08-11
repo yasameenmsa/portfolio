@@ -307,6 +307,80 @@ body::before {
   color: var(--text-dim);
 }
 
+.about-card p + p {
+  margin-top: 14px;
+}
+
+.edu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.edu-list li {
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.55;
+}
+
+.edu-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+
+.xp-item {
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid var(--border);
+}
+
+.xp-item:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.xp-item h3 {
+  color: var(--text);
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.xp-meta {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.xp-item p {
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.skills-heading {
+  color: var(--text);
+  font-size: 1.05rem;
+  margin: 24px 0 12px;
+}
+
+.skills-heading:first-child {
+  margin-top: 0;
+}
+
+#experience .about-card,
+#skills .about-card {
+  max-width: 860px;
+}
+
 .roles-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -746,6 +820,17 @@ body::before {
 
   .hero {
     padding-top: 140px;
+  }
+
+  .nav-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px 16px;
+  }
+
+  .nav nav a {
+    font-size: 0.8rem;
+    padding: 4px 8px;
   }
 
   .section {
